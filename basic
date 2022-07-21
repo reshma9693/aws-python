@@ -1,0 +1,20 @@
+def ad(x,y=1): #it is a default value . left to right .default value should be place from L->R.
+    c=x+y
+    return c
+
+a=int(input())
+b=int(input())
+res=ad(a,b)
+print(res)
+-------------------------------------------------------
+DIFFERENT TYPES OF IMPORTS
+>>>import math
+>>>math.sqrt(100)
+10.0
+>>>import math as M
+>>>M.sqrt(100)
+10.0
+>>>from math import *
+>>>sqrt(100)
+10.0
+--------------------------------------------------------
